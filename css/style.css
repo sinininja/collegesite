@@ -1,0 +1,9 @@
+.body {
+    margin: auto;
+}
+
+.header-top {
+    display:flex;
+    text-align: center;
+    
+}
