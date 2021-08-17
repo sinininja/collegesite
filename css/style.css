@@ -7,8 +7,9 @@ body {
 }
 
 .body-shadow {
-    box-shadow: 0 0 3px 0 #34495e;
+    box-shadow: 0 0 5px 0 #34495e;
     background-color: white;
+    padding: 10px;
 }
 
 .header-top {
