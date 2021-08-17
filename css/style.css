@@ -1,9 +1,138 @@
-.body {
-    margin: auto;
+body {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: auto;
 }
 
 .header-top {
     display:flex;
     text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.slider {
+    width:auto;
+    height: 200px;
+    background-color: darkgreen;
+    margin-bottom: 20px;
+}
+
+.content-main {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+.sidebar {
+    width: 300px;
+    height: 365px;
+    background-color: blue;    
+    color:white;
+    border: 1px solid black;
     
+}
+
+.content {
+    width: 650px;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-items {
+ 
+}
+
+
+.text h2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.text p {
+    font-size: 24px;
+}
+
+
+.container {
+    display: flex;
+}
+
+.sidebar-bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.question {
+    width: 300px;
+    height: 90px;
+    background-color: darkgray;
+    margin-bottom: 2px;
+    border: 1px solid black;
+  
+}
+
+
+.security {
+    width: 300px;
+    height: 90px;
+    background-color: darkgray;
+    border: 1px solid black;
+}
+
+.menu-table {
+    margin-left: 50px; 
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 130px;
+    height: 90px;
+    border: 1px solid black;
+    font-size: 12px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+}
+
+.new {
+    width: 320px;
+    height: 200px;
+    background-color: darkorange;
+    border: 1px solid black;
+}
+
+.important, .links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post, .link {
+    width: 240px;
+    height: 100px;
+    background-color:rgb(255, 0, 191);
+    border: 1px solid black;
+}
+
+.footer {
+    width: auto;
+    height: 200px;
+    background-color: darkslateblue;
+    border: 1px solid black;
+    margin-top: 20px;
 }
