@@ -31,20 +31,20 @@ body {
     margin: auto;
 }
 
-.swiper-container {
+.swiper .swiper-container {
     width:auto;
     height: 200px;
     background-color: darkgreen;
     margin-bottom: 20px;
 }
 
-.content-main {
+.content-main  {
     display: flex;
     justify-content: space-between;
     max-height: 365px;
     margin-bottom: 20px;
 }
-.sidebar {
+.sidebar .swiper-container {
     width: 300px;
     height: 365px;
     background-color: blue;    
