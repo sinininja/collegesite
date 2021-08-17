@@ -19,6 +19,14 @@ body {
     align-items: center;
 }
 
+.logo-world {
+    align-self: flex-end;
+}
+
+.logo-abil {
+    align-self: flex-end;
+}
+
 .title-full {
     
 }
@@ -87,7 +95,7 @@ body {
 
 .question {
     width: 300px;
-    height: 105px;
+    height: 115px;
     background-color: darkgray;
     margin-bottom: 2px;
     border: 1px solid black;
@@ -97,14 +105,14 @@ body {
 
 .security {
     width: 300px;
-    height: 105px;
+    height: 115px;
     background-color: darkgray;
     border: 1px solid black;
 }
 
 .menu-table {
     display: flex;
-    margin-left: 50px;
+    margin: 0 10px;
     flex-wrap: wrap; 
     justify-content: space-evenly;
     align-items: center;
