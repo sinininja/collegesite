@@ -14,7 +14,7 @@ body {
     justify-content: space-around;
 }
 
-.slider {
+.swiper-container {
     width:auto;
     height: 200px;
     background-color: darkgreen;
@@ -36,8 +36,8 @@ body {
 }
 
 .content {
-    width: 650px;
-    
+    max-width: 650px;
+    width: auto;
 }
 
 .menu {
