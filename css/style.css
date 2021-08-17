@@ -4,6 +4,9 @@ body {
     width: auto;
 }
 
+.body-shadow {
+    box-shadow: 0 0 3px 0 #34495e;
+}
 .header-top {
     display: flex;
     text-align: center;
