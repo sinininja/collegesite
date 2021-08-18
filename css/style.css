@@ -46,10 +46,20 @@ body {
     text-transform: uppercase;
 }
 
+.nav a:visited {
+    color: slateblue;
+}
+
 .nav a:hover {
     color: white;
     background-color: slateblue;
 }
+
+.nav a:active {
+    background-color: white;
+    color: slateblue;
+}
+
 .swiper .swiper-container {
     width:auto;
     height: 200px;
@@ -83,13 +93,17 @@ body {
 }
 
 .menu-items {
-    margin: auto;
+    margin: auto 0;
     width: 100px;
     height: 100px;
 }
 
 .menu-items:hover {
     box-shadow: 0 0 5px 0 #34495e;
+}
+
+.menu-items:active {
+    box-shadow: none;
 }
 
 .text {
@@ -152,6 +166,10 @@ body {
 
 .table-icon:hover {
     box-shadow: 0 0 5px 0 #34495e;
+}
+
+.table-icon:active {
+    box-shadow: none;
 }
 
 h3 {
