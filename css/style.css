@@ -37,8 +37,19 @@ body {
     height: 30px;
     align-items: center;
     margin: auto;
+    font-size: 16px;
+    font-weight: bold;
 }
 
+.nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav a:hover {
+    color: white;
+    background-color: slateblue;
+}
 .swiper .swiper-container {
     width:auto;
     height: 200px;
@@ -58,8 +69,8 @@ body {
     background-color: blue;    
     color:white;
     border: 1px solid black;
-    
 }
+
 
 .content {
     max-width: 650px;
@@ -71,8 +82,19 @@ body {
     justify-content: space-between;
 }
 
+.menu-items {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
 
+.menu-items:hover {
+    box-shadow: 0 0 5px 0 #34495e;
+}
 
+.text {
+    height: 250px;
+}
 
 .text h2 {
     text-decoration: underline;
@@ -81,6 +103,7 @@ body {
 
 .text p {
     font-size: 24px;
+    line-height: 100%;
 }
 
 
@@ -95,7 +118,7 @@ body {
 
 .question {
     width: 300px;
-    height: 115px;
+    height: 120px;
     background-color: darkgray;
     margin-bottom: 2px;
     border: 1px solid black;
@@ -105,7 +128,7 @@ body {
 
 .security {
     width: 300px;
-    height: 115px;
+    height: 120px;
     background-color: darkgray;
     border: 1px solid black;
 }
@@ -123,7 +146,12 @@ body {
 .table-icon {
     width: 120px;
     height: 120px;
-    margin: 0 auto;
+    margin-bottom: 2px;
+    
+}
+
+.table-icon:hover {
+    box-shadow: 0 0 5px 0 #34495e;
 }
 
 h3 {
